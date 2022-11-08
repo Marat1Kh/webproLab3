@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body onload="addRow()">
+<table id="myTable" style="display:none">
+    <tr>
+        <th class="borderless">ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Gender</th>
+        <th>Country</th>
+    </tr>
+    <tbody id="myTableBody">
+    </tbody>
+</table>
+<button type="button" id="buttonShow" onclick="showTable()">Show Table</button>
+<button type="button"  id="buttonAdd" onclick="addRow()" disabled>Add a new row</button>
+<br>
+<label>
+    <input   id="valueToDelete" class="input1" type="text" name="todoTags"/>
+    <button class="dellbtn" id="buttonDell"onclick="delRow()" disabled>Delete row</button>
+</label>
+
+</body>
+<script src="script.js"></script>
+</html>

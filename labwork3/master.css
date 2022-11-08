@@ -1,0 +1,17 @@
+* {
+    font-family: sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+td,
+th {
+    border: 1px solid black;
+    width: 25px;
+}
+th {
+    border: solid 1px black;
+}
+th.borderless {
+    width: 10px;
+}
