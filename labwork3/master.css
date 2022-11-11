@@ -1,17 +1,47 @@
 * {
+    padding:0;
+    margin:0;
     font-family: sans-serif;
     font-size: 14px;
     box-sizing: border-box;
-    justify-content: center;
 }
-td,
-th {
-    border: 1px solid black;
-    width: 25px;
+body{
+   padding-left: 25px;
 }
-th {
-    border: solid 1px black;
+table.myTable {
+    border: 5px solid #555555;
+    background-color: #2496A0;
+    width: 400px;
+    text-align: center;
+    border-collapse: collapse;
 }
-th.borderless {
-    width: 10px;
+table.myTable td, table.myTable th {
+    border: 1px solid #555555;
+    padding: 5px 10px;
+}
+table.myTable tbody td {
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+table.myTable td:nth-child(even) {
+    background: #60A44B;
+}
+table.myTable thead {
+    background: #8C8C8C;
+    border-bottom: 0px solid #110F0F;
+}
+table.myTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    border-left: 2px solid #DADADA;
+}
+table.myTable thead th:first-child {
+    border-left: none;
+}
+.buttons{
+    padding-top:3px;
+    display:flex;
 }
